@@ -15,7 +15,7 @@ public class Skills {
 	@Size(min=4, max=20,message="name should have minimum of 4 characters")
 	private String name;
 	private String description;
-	@NotEmpty(message="description should not be empty")
+	@NotEmpty(message="level should not be empty")
 	private String level;
 	
 
